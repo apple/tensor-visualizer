@@ -7,17 +7,18 @@ name = "tensor-visualizer"
 description = "A Jupyter widget for visualizing tensors as heatmaps."
 version = "0.1.0"
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.7"
 authors = [
-    { name = "Donghao Ren", email = "donghao@apple.com" }
+  { name = "Donghao Ren", email = "donghao@apple.com" }
 ]
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
 ]
 dependencies = [
-    "anywidget",
-    "numpy"
+  "anywidget",
+  "numpy"
 ]
 
 [tool.hatch.build]

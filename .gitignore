@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__
+*.pyc
+.ipynb_checkpoints
+node_modules
+/widget_dist
+/build
+/dist
+/.svelte-kit
+/package
+/src/tensor_visualizer/static
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tensor-visualizer"
+description = "A Jupyter widget for visualizing tensors as heatmaps."
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name = "Donghao Ren", email = "donghao@apple.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "anywidget",
+    "numpy"
+]
+
+[tool.hatch.build]
+artifacts = [
+  "src/tensor_visualizer/static/"
+]
+
+[tool.hatch.envs.default]
+extra-dependencies = [
+  "jupyterlab",
+  "torch",
+  "mlx",
+  "tensorflow"
+]
+
+
+[project.urls]
+homepage = "https://github.com/apple/tensor-visualizer"

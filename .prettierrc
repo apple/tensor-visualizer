@@ -1,0 +1,12 @@
+{
+  "printWidth": 100,
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte",
+        "svelteAllowShorthand": false
+      }
+    }
+  ]
+}

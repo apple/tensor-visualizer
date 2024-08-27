@@ -2,7 +2,7 @@
 
 This is a package to visualize tensor data in notebooks.
 
-<img src="assets/screenshot.png" width="512px" alt="the TensorVisualizer widget"  />
+<img src="https://raw.githubusercontent.com/apple/tensor-visualizer/main/assets/screenshot.png" width="512px" alt="the TensorVisualizer widget"  />
 
 ## Install
 

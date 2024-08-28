@@ -6,7 +6,7 @@ This is a package to visualize tensor data in notebooks.
 
 ## Install
 
-Install the package from the [Python Package Index (PyPI](https://pypi.org/project/tensor-visualizer/).
+Install the package from the [Python Package Index (PyPI)](https://pypi.org/project/tensor-visualizer/).
 
 ```bash
 pip install tensor-visualizer
